@@ -8,5 +8,8 @@ public class Main {
         String altMetin = "Vade süresi";
 
         System.out.println(ortaMetin);
+
+        //integer
+        int vade = 12;
     }
 }
