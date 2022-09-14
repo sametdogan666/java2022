@@ -29,5 +29,13 @@ public class Main {
             okYonu = "equal.svg";
             System.out.println(okYonu);
         }
+
+        //array
+
+        String[] krediler = {"Hızlı Kredi", "Maaşını Halkbanktan", "Mutlu Emekli"};
+
+        for (int i = 0; i < krediler.length; i++){
+            System.out.println(krediler[i]);
+        }
     }
 }
