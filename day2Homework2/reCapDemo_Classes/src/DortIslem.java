@@ -3,7 +3,7 @@ public class DortIslem {
         return sayi1 + sayi2;
     }
 
-    public int cikar(int sayi1, int sayi2) {
+    public double cikar(int sayi1, int sayi2) {
         return sayi1 - sayi2;
     }
 
