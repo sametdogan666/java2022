@@ -23,7 +23,7 @@ public class ProductManager {
         }
         productDao.add(product);
 
-        for (Logger logger : loggers){
+        for (Logger logger : loggers){//database,mail,file
             logger.log(product.getName());
         }
 
